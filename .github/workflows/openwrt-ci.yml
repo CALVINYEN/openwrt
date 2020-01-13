@@ -89,6 +89,6 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@master
         with:
-          name: OpenWrt firmware
+          name: openwrt-19.07_fw_bin
           path: ./bin/targets/
 

@@ -4322,10 +4322,10 @@ CONFIG_LUCI_CSSTIDY=y
 # CONFIG_LUCI_LANG_ko is not set
 # CONFIG_LUCI_LANG_mr is not set
 # CONFIG_LUCI_LANG_ms is not set
-# CONFIG_LUCI_LANG_nb_NO is not set
+# CONFIG_LUCI_LANG_no is not set
 # CONFIG_LUCI_LANG_pl is not set
 # CONFIG_LUCI_LANG_pt is not set
-# CONFIG_LUCI_LANG_pt_BR is not set
+# CONFIG_LUCI_LANG_pt-br is not set
 # CONFIG_LUCI_LANG_ro is not set
 # CONFIG_LUCI_LANG_ru is not set
 # CONFIG_LUCI_LANG_sk is not set
@@ -4333,8 +4333,8 @@ CONFIG_LUCI_CSSTIDY=y
 # CONFIG_LUCI_LANG_tr is not set
 # CONFIG_LUCI_LANG_uk is not set
 # CONFIG_LUCI_LANG_vi is not set
-CONFIG_LUCI_LANG_zh_Hans=y
-# CONFIG_LUCI_LANG_zh_Hant is not set
+CONFIG_LUCI_LANG_zh-cn=y
+# CONFIG_LUCI_LANG_zh-tw is not set
 CONFIG_PACKAGE_luci-compat=y
 CONFIG_PACKAGE_luci-mod-admin-full=y
 # CONFIG_PACKAGE_luci-mod-failsafe is not set

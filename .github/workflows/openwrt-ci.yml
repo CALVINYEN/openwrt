@@ -59,7 +59,7 @@ jobs:
           ./scripts/feeds update -a
           ./scripts/feeds install -a
           git clone https://github.com/rufengsuixing/luci-app-adguardhome.git --depth=1 feeds/luci/applications/luci-app-adguardhome
-          ln -s feeds/luci/applications/luci-app-adguardhome package/feeds/luci/luci-app-adguardhome
+          ln -s ../../../feeds/luci/applications/luci-app-adguardhome package/feeds/luci/luci-app-adguardhome
 
       - name: Generate configuration file
         run: |

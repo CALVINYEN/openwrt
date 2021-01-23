@@ -130,7 +130,7 @@ CONFIG_DEFAULT_kmod-leds-gpio=y
 CONFIG_DEFAULT_kmod-mt7603=y
 CONFIG_DEFAULT_kmod-mt76x2=y
 CONFIG_DEFAULT_kmod-usb-ledtrig-usbport=y
-CONFIG_DEFAULT_kmod-usb3=y
+# CONFIG_DEFAULT_kmod-usb3 is not set
 CONFIG_DEFAULT_libc=y
 CONFIG_DEFAULT_libgcc=y
 CONFIG_DEFAULT_logd=y

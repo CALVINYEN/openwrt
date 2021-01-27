@@ -64,7 +64,7 @@ jobs:
       - name: Generate configuration file
         run: |
           rm -f ./.config*
-          cp config/config.new ./.config
+          cp config/config.xiaomi_mir3g ./.config
           make defconfig
 
       - name: Make download

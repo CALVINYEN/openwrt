@@ -59,7 +59,9 @@ jobs:
           ./scripts/feeds update -a
           ./scripts/feeds install -a
           git clone https://github.com/kongfl888/luci-app-adguardhome.git --depth=1 feeds/luci/applications/luci-app-adguardhome
+          git clone https://github.com/vernesong/OpenClash.git --depth=1 feeds/luci/applications/luci-app-openclash
           ln -s ../../../feeds/luci/applications/luci-app-adguardhome package/feeds/luci/luci-app-adguardhome
+          ln -s ../../../feeds/luci/applications/luci-app-openclash package/feeds/luci/luci-app-openclash
 
       - name: Generate configuration file
         run: |

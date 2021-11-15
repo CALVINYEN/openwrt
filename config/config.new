@@ -5727,7 +5727,7 @@ CONFIG_OPENLDAP_DEBUG=y
 # WWAN
 #
 # CONFIG_PACKAGE_adb-enablemodem is not set
-# CONFIG_PACKAGE_comgt is not set
+CONFIG_PACKAGE_comgt=y
 # CONFIG_PACKAGE_comgt-directip is not set
 # CONFIG_PACKAGE_uqmi is not set
 
